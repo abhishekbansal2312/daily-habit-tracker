@@ -11,7 +11,7 @@ export default function HabitGrid() {
   return (
     <section className="border border-roseSoft/70 rounded-3xl p-4 overflow-x-auto bg-roseSoft/10">
       <div className="min-w-max">
-        <div className="grid grid-cols-[100px_repeat(auto-fit,minmax(28px,1fr))] gap-1 items-end mb-3">
+        <div className="grid grid-cols-[130px_repeat(auto-fit,minmax(28px,1fr))] gap-1 items-end mb-3">
           <div className="text-xs font-semibold text-roseSoftDark">Habits</div>
           {days.map((d) => (
             <div
